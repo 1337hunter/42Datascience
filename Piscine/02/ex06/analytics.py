@@ -2,6 +2,9 @@ import sys
 from random import randint
 import os
 from config import num_of_steps
+import requests
+import json
+import logging
 
 class Research:
     class Calculations:
@@ -9,6 +12,7 @@ class Research:
             self.data = data
 
         def counts(self):
+            logging.warning('Calculating the counts of heads and tails')
             heads = 0
             tails = 0
             for peace in self.data:
@@ -16,6 +20,7 @@ class Research:
                 tails += peace[1]
             return heads, tails
         def fractions(self):
+            logging.warning('Calculating the fractions of heads and tails')
             heads, tails = self.counts()
             return heads * 100 / (heads + tails), tails * 100/ (heads + tails)
 
@@ -50,6 +55,7 @@ class Research:
         return [int(content[0]), int(content[1])]
     
     def file_reader(self, has_header=True):
+        logging.warning(f'Reading data from {self.filename}')
         with open(self.file_name, "r") as file:
             line = file.readline()
             if line and has_header:
@@ -65,10 +71,23 @@ class Research:
             if strs < 1:
                 raise Exception('File has no content')
             return data
-
+    def SendReport(success=True):
+        logging.warning(f'Sending report to slack workspace')
+        webhook_url = 'https://hooks.slack.com/services/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'
+        if (success):
+            slack_data = {'text': "The report has been successfully created"}
+        else:
+            slack_data = {'text': "The report hasn’t been created due to an error"}
+        response = requests.post(
+            webhook_url, data=json.dumps(slack_data),
+            headers={'Content-Type': 'application/json'})
+        if response.status_code != 200:
+            raise ValueError('Request to slack returned an error %s, the response is:\n%s'
+                    %(response.status_code, response.text))
 
 class Analitics(Research.Calculations):
     def predict_random(self):
+        logging.warning(f'Predicting random heads and tails')
         i = 0
         predictions = []
         while i < num_of_steps:
@@ -77,19 +96,14 @@ class Analitics(Research.Calculations):
             i += 1
         return predictions
     def predict_last(self):
+        logging.warning(f'Predicting last head and tail')
         return self.data[-1]
     
     def save_file(self, data, name, ext):
+        logging.warning(f'Saving file {name}')
         with open('./' + name + '.' + ext, 'w+') as file:
             file.write(data)
-
-
-
 
 def CheckArguments(av):
     if len(av) != 1:
         raise Exception('Wrong argument', "The argument number is not one")
-
-def CreateDatatable(path):
-    with open(path, 'w+') as file:
-        file.write('head,tail\n0,1\n1,0\n0,1\n1,0\n0,1\n0,1\n0,1\n1,0\n1,0\n0,1\n1,0\n')

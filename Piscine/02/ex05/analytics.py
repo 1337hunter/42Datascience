@@ -22,6 +22,11 @@ class Research:
     def __init__(self, file_name):
         self.file_name = file_name
 
+    def TimeRequest():
+        res = urlopen('http://just-the-time.appspot.com/')
+        result = res.read().strip()
+        result_str = result.decode('utf-8')
+        return result_str
     def check_file_header(self, origin, line):
         check = line.split(',')
         if not line or len(check) != 2:
@@ -81,9 +86,6 @@ class Analitics(Research.Calculations):
     def save_file(self, data, name, ext):
         with open('./' + name + '.' + ext, 'w+') as file:
             file.write(data)
-
-
-
 
 def CheckArguments(av):
     if len(av) != 1:

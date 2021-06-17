@@ -1,5 +1,4 @@
 num_of_steps = 12
-log_file = 'analytics.log'
 
 def report_template(heads, tails, headf, tailf):
     return f"Report\nWe have made {num_of_steps} observations from tossing a coin: {tails} of them were tails and {heads} of\
