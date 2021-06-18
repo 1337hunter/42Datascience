@@ -1,0 +1,936 @@
+         179518 function calls (179461 primitive calls) in 5.828 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.005    5.005    5.005    5.005 {built-in method time.sleep}
+      138    0.568    0.004    0.568    0.004 {built-in method _openssl.SSL_read}
+        1    0.050    0.050    0.050    0.050 {built-in method _openssl.SSL_do_handshake}
+        1    0.048    0.048    0.048    0.048 {method 'connect' of '_socket.socket' objects}
+        1    0.012    0.012    0.012    0.012 {built-in method _openssl.SSL_CTX_load_verify_locations}
+     1234    0.010    0.000    0.050    0.000 /usr/lib/python3.8/html/parser.py:301(parse_starttag)
+    10231    0.010    0.000    0.010    0.000 {method 'match' of 're.Pattern' objects}
+       33    0.008    0.000    0.008    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+        2    0.007    0.004    0.081    0.041 /usr/lib/python3.8/html/parser.py:134(goahead)
+        1    0.004    0.004    0.004    0.004 /usr/lib/python3/dist-packages/requests/models.py:835(text)
+     1235    0.004    0.000    0.012    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1068(__init__)
+     1234    0.003    0.000    0.024    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:119(handle_starttag)
+     1185    0.003    0.000    0.006    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:284(_replace_cdata_list_attribute_values)
+     1234    0.003    0.000    0.019    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:678(handle_starttag)
+     1160    0.003    0.000    0.015    0.000 /usr/lib/python3.8/html/parser.py:386(parse_endtag)
+    22487    0.003    0.000    0.004    0.000 {built-in method builtins.isinstance}
+     1234    0.002    0.000    0.005    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:644(_popToTag)
+      138    0.002    0.000    0.573    0.004 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1795(recv_into)
+     1235    0.002    0.000    0.003    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:527(pushTag)
+     2703    0.002    0.000    0.008    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:541(endData)
+     2229    0.002    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:158(setup)
+     1250    0.002    0.000    0.007    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1980(search_tag)
+     5026    0.002    0.000    0.003    0.000 /usr/lib/python3.8/_markupbase.py:48(updatepos)
+     3809    0.002    0.000    0.002    0.000 {method 'search' of 're.Pattern' objects}
+     1449    0.002    0.000    0.004    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2076(_matches)
+      244    0.002    0.000    0.008    0.000 /usr/lib/python3/dist-packages/idna/core.py:234(check_label)
+     5244    0.002    0.000    0.002    0.000 {method 'group' of 're.Match' objects}
+     1162    0.002    0.000    0.002    0.000 {built-in method _bisect.bisect_left}
+      784    0.002    0.000    0.002    0.000 {method 'findall' of 're.Pattern' objects}
+     1234    0.002    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:513(popTag)
+     1162    0.002    0.000    0.004    0.000 /usr/lib/python3/dist-packages/idna/intranges.py:38(intranges_contain)
+     2240    0.002    0.000    0.010    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2043(search)
+     2703    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:478(string_container)
+     2900    0.001    0.000    0.001    0.000 {method 'count' of 'str' objects}
+     1234    0.001    0.000    0.005    0.000 /usr/lib/python3.8/html/parser.py:352(check_for_whole_start_tag)
+      140    0.001    0.000    0.002    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1608(_raise_ssl_error)
+     8425    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+       26    0.001    0.000    0.012    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:738(_find_all)
+       34    0.001    0.000    0.009    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:79(decompress)
+     6998    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+     1234    0.001    0.000    0.010    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:716(handle_endtag)
+     7176    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.001    0.001    0.001    0.001 {built-in method _socket.getaddrinfo}
+      497    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:576(object_was_parsed)
+     4131    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     1234    0.001    0.000    0.011    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:171(handle_endtag)
+      607    0.001    0.000    0.001    0.000 {built-in method __new__ of type object at 0x906780}
+3711/3702    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     6565    0.001    0.000    0.001    0.000 {method 'end' of 're.Match' objects}
+     4727    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+      244    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/idna/core.py:67(check_bidi)
+       62    0.001    0.000    0.142    0.002 {method 'read' of '_io.BufferedReader' objects}
+        1    0.001    0.001    0.001    0.001 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:455(close)
+      497    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:890(__new__)
+       86    0.001    0.000    0.154    0.002 {method 'join' of 'bytes' objects}
+     1234    0.001    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1184(is_empty_element)
+      138    0.001    0.000    0.575    0.004 /usr/lib/python3.8/socket.py:655(readinto)
+     2699    0.001    0.000    0.001    0.000 /usr/lib/python3.8/html/__init__.py:122(unescape)
+     1503    0.001    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1943(_normalize_search_value)
+     2682    0.001    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+      138    0.001    0.000    0.574    0.004 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:311(recv_into)
+      244    0.001    0.000    0.009    0.000 /usr/lib/python3/dist-packages/idna/core.py:291(ulabel)
+      140    0.001    0.000    0.001    0.000 {built-in method _openssl.SSL_get_error}
+     2682    0.001    0.000    0.001    0.000 /usr/lib/python3.8/abc.py:96(__instancecheck__)
+     4863    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1419(__bool__)
+     1235    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:195(can_be_empty_element)
+       75    0.000    0.000    0.010    0.000 /usr/lib/python3/dist-packages/idna/core.py:340(encode)
+     2269    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+     1235    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:434(set_up_substitutions)
+     1193    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+     2281    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1802(descendants)
+     1162    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/intranges.py:31(_encode_range)
+      138    0.000    0.000    0.000    0.000 {built-in method allocator}
+     1160    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:127(clear_cdata_mode)
+     1296    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/intranges.py:34(_decode_range)
+     1425    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       79    0.000    0.000    0.001    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:87(_decode_general_name)
+      244    0.000    0.000    0.009    0.000 /usr/lib/python3/dist-packages/idna/core.py:266(alabel)
+     2629    0.000    0.000    0.000    0.000 {method 'start' of 're.Match' objects}
+     1234    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_markupbase.py:40(getpos)
+      127    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:604(_linkage_fixer)
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        1    0.000    0.000    5.828    5.828 financial.py:49(main)
+       33    0.000    0.000    0.153    0.005 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:713(read_chunked)
+     1245    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_set_cipher_list}
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:187(parse)
+       75    0.000    0.000    0.010    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:179(idna_encode)
+      116    0.000    0.000    0.002    0.000 /usr/lib/python3.8/_markupbase.py:168(parse_comment)
+      733    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1376(get)
+       59    0.000    0.000    0.142    0.002 /usr/lib/python3.8/http/client.py:605(_safe_read)
+      384    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:189(handle_data)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_new}
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:76(_decode_general_names)
+       33    0.000    0.000    0.009    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:379(_decode)
+       33    0.000    0.000    0.143    0.004 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:691(_handle_chunk)
+        2    0.000    0.000    0.000    0.000 {method 'callback' of 'CompiledFFI' objects}
+       16    0.000    0.000    0.001    0.000 /usr/lib/python3.8/urllib/parse.py:366(urlparse)
+     1162    0.000    0.000    0.000    0.000 {built-in method unicodedata.bidirectional}
+     1311    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+      501    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:726(handle_data)
+      326    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:670(__getitem__)
+       34    0.000    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:677(_update_chunk_length)
+     1273    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      244    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/core.py:134(check_hyphen_ok)
+      700    0.000    0.000    0.001    0.000 {method 'encode' of 'str' objects}
+      244    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/core.py:127(check_initial_combiner)
+       79    0.000    0.000    0.001    0.000 /usr/lib/python3.8/re.py:289(_compile)
+     1314    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      244    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/core.py:143(check_nfc)
+      116    0.000    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:251(handle_comment)
+      340    0.000    0.000    0.001    0.000 /usr/lib/python3.8/_collections_abc.py:742(__iter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:2007(get_cipher_list)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:657(get)
+       75    0.000    0.000    0.000    0.000 {method 'split' of 're.Pattern' objects}
+       78    0.000    0.000    0.001    0.000 /usr/lib/python3.8/html/parser.py:123(set_cdata_mode)
+        3    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       16    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       75    0.000    0.000    0.010    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:165(_dnsname_to_stdlib)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:493(_parse)
+      140    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:284(raise_if_problem)
+      138    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      244    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/core.py:53(valid_label_length)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1575(_cookies_from_attrs_set)
+      243    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:71(_compile)
+      138    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+       39    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:110(_coerce_args)
+       19    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:417(urlsplit)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:497(get_all)
+       73    0.000    0.000    0.003    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:104(handle_startendtag)
+       10    0.000    0.000    0.000    0.000 {built-in method _openssl.X509V3_EXT_d2i}
+   108/91    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:471(_parse_headers)
+       79    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:755(_asn1_string_to_bytes)
+      326    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:748(encode)
+      636    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:752(decode)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:462(get)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/_oid.py:11(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:306(wrapper)
+      583    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.8/urllib/request.py:2490(getproxies_environment)
+        1    0.000    0.000    0.128    0.128 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:332(connect)
+      109    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/backend.py:130(openssl_assert)
+       48    0.000    0.000    0.433    0.009 {method 'readline' of '_io.BufferedReader' objects}
+      244    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+      139    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:694(readable)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.8/email/feedparser.py:218(_parsegen)
+        3    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/http/client.py:204(parse_headers)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1483(_cookie_from_cookie_tuple)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:22(_obj2txt)
+      244    0.000    0.000    0.000    0.000 {built-in method unicodedata.normalize}
+       42    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/_util.py:72(native)
+      320    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:693(__iter__)
+       33    0.000    0.000    0.154    0.005 /usr/lib/python3/dist-packages/requests/models.py:746(generate)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:459(parse_ns_headers)
+       22    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.8/http/cookiejar.py:1596(make_cookies)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_write}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:193(__init__)
+        1    0.000    0.000    0.081    0.081 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:115(__init__)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:293(header_source_parse)
+       92    0.000    0.000    0.000    0.000 /usr/lib/python3.8/types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x7f4e71378670}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1542(__init__)
+      171    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/utils.py:42(<lambda>)
+        6    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:210(_encode_invalid_chars)
+        1    0.000    0.000    0.434    0.434 /usr/lib/python3.8/http/client.py:300(begin)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+       21    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:700(__init__)
+       26    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1905(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:139(__init__)
+      244    0.000    0.000    0.000    0.000 {built-in method unicodedata.category}
+       75    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/general_name.py:152(_init_without_validation)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:824(update)
+      702    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.8/http/cookiejar.py:942(set_ok)
+      244    0.000    0.000    0.000    0.000 {method 'lower' of 'bytes' objects}
+       49    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.010    0.010 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:250(<listcomp>)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:587(__getattr__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:355(_decode_authority_key_identifier)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:260(_decode_certificate_policies)
+       27    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:281(_sanitize_header)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1287(_cookies_for_request)
+       22    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:155(__getitem__)
+        1    0.000    0.000    0.721    0.721 /usr/lib/python3/dist-packages/requests/sessions.py:617(send)
+       77    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_GENERAL_NAME_value}
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/_oid.py:43(__eq__)
+       21    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:78(readline)
+       77    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1219(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:230(extend)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/__init__.py:91(_replace_charref)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:684(reach)
+        1    0.000    0.000    0.002    0.002 /home/se/.local/lib/python3.8/site-packages/urllib3/util/ssl_.py:220(create_urllib3_context)
+        1    0.000    0.000    0.563    0.563 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:494(urlopen)
+       10    0.000    0.000    0.000    0.000 {method 'cast' of 'CompiledFFI' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/copy.py:66(copy)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:849(get_code)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:475(get_encoding_from_headers)
+       16    0.000    0.000    0.000    0.000 {built-in method _openssl.OBJ_obj2txt}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:101(push)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/functools.py:34(update_wrapper)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_new}
+        1    0.000    0.000    0.563    0.563 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:351(_make_request)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.8/encodings/__init__.py:70(search_function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1008(set_ok_domain)
+       21    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:128(__next__)
+        1    0.000    0.000    5.734    5.734 financial.py:22(GetPage)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1386(_normalized_cookie_tuples)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:969(get_data)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:440(reset)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3.8/http/cookiejar.py:1677(extract_cookies)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:1092(_from_raw_x509_ptr)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:569(from_httplib)
+        1    0.000    0.000    0.050    0.050 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:465(wrap_socket)
+       17    0.000    0.000    0.000    0.000 {method 'new' of 'CompiledFFI' objects}
+       75    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/idna/core.py:60(valid_string_length)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:294(cache_from_source)
+       18    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:214(add)
+        2    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+       43    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_get_cipher_list}
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/_oid.py:58(__hash__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:143(_str2time)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:303(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:858(quote_from_bytes)
+       33    0.000    0.000    0.153    0.005 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:543(stream)
+       77    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1217(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:754(__init__)
+        1    0.000    0.000    0.001    0.001 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:443(set_ciphers)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:97(get_redirect_target)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:276(_optimize_charset)
+   108/91    0.000    0.000    0.000    0.000 /usr/lib/python3.8/abc.py:100(__subclasscheck__)
+       41    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:233(__next)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:613(request_host)
+        1    0.000    0.000    0.015    0.015 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:370(getpeercert)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:536(_compile_info)
+       28    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:46(__setitem__)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:164(__getitem__)
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:174(getwidth)
+       79    0.000    0.000    0.001    0.000 /usr/lib/python3.8/re.py:250(compile)
+        2    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:51(__getitem__)
+        1    0.000    0.000    0.002    0.002 /usr/lib/python3/dist-packages/requests/adapters.py:255(build_response)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.8/queue.py:153(get)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1078(set_verify)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:562(__new__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/email/parser.py:41(parse)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+        2    0.000    0.000    0.001    0.001 {built-in method builtins.__import__}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:225(http2time)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:380(_decode_authority_information_access)
+       17    0.000    0.000    0.000    0.000 {method 'gc' of 'CompiledFFI' objects}
+      3/2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:650(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:533(_decode_dist_points)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:417(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:51(lookup)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/email/parser.py:59(parsestr)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:986(_find_and_load)
+       26    0.000    0.000    0.012    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1767(find_all)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.8/sre_compile.py:759(compile)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:869(_decompose)
+       76    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1204(<genexpr>)
+       11    0.000    0.000    0.000    0.000 /usr/lib/python3.8/queue.py:121(put)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:564(get_content_type)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:283(__call__)
+       35    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:596(__init__)
+       27    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:311(header_fetch_parse)
+      109    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/bindings/openssl/binding.py:55(_openssl_assert)
+       42    0.000    0.000    0.000    0.000 {method 'string' of 'CompiledFFI' objects}
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:62(_path_join)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:827(__or__)
+        1    0.000    0.000    0.049    0.049 /home/se/.local/lib/python3.8/site-packages/urllib3/util/connection.py:33(create_connection)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:336(parse_url)
+       28    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/utils.py:51(_has_surrogates)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:341(notify)
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3/dist-packages/requests/cookies.py:118(extract_cookies_to_jar)
+        1    0.000    0.000    0.013    0.013 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:208(get_subj_alt_name)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1170(set_cipher_list)
+        1    0.000    0.000    0.433    0.433 /usr/lib/python3.8/http/client.py:267(_read_status)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:1(<module>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/__init__.py:43(normalize_encoding)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:479(set_raw)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:787(quote)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:645(_decode_precert_signed_certificate_timestamps)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:64(<listcomp>)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:51(get_full_url)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:543(domain_match)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:195(_hostinfo)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:937(parse)
+       85    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1213(get_values_for_type)
+        1    0.000    0.000    0.565    0.565 /usr/lib/python3/dist-packages/requests/adapters.py:394(send)
+       26    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2162(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:833(__and__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1211(putheader)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/calendar.py:655(timegm)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:670(escape_path)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:1100(to_cryptography)
+       24    0.000    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1742(find)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:53(__init__)
+        3    0.000    0.000    0.154    0.051 /usr/lib/python3/dist-packages/requests/models.py:815(content)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/weakref.py:159(__setitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:514(_decode_extended_key_usage)
+        2    0.000    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:91(clear)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:249(_compile_charset)
+       18    0.000    0.000    0.000    0.000 {method 'setdefault' of 'collections.OrderedDict' objects}
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:254(get)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:640(request_path)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1257(_send_request)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:343(set_cookie)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:528(is_HDN)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:1422(_get_name)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1163(__init__)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.8/http/cookiejar.py:719(is_third_party)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1302(_get_spec)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:450(_parse_content_type_header)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:886(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:29(_splitparam)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/packages/backports/makefile.py:14(backport_makefile)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:307(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/utils.py:168(get_netrc_auth)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:797(_create_pseudo_member_)
+        1    0.000    0.000    0.081    0.081 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:369(feed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:459(<listcomp>)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:40(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:551(__setattr__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:729(iter_content)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1664(set_cookie)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:140(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:37(__init__)
+        3    0.000    0.000    0.000    0.000 {function HTTPResponse.close at 0x7f4e70ec1280}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:629(spec_from_file_location)
+       19    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:186(__iter__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:142(_get_decoder)
+       38    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:256(parse_html_declaration)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_set_mode}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:414(close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:120(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:72(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:260(handle_decl)
+       80    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:664(value)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1335(set_options)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1258(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1055(putrequest)
+        1    0.000    0.000    0.050    0.050 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1906(do_handshake)
+        1    0.000    0.000    0.002    0.002 financial.py:31(FindRow)
+       31    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/response.py:38(assert_header_parsing)
+        1    0.000    0.000    0.062    0.062 /home/se/.local/lib/python3.8/site-packages/urllib3/util/ssl_.py:296(ssl_wrap_socket)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:284(to_key_val_list)
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:277(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:167(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:435(_parse_sub)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:49(merge_setting)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:1467(get_subject)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:436(_decode_subject_alt_name)
+       78    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1456(__eq__)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:868(<lambda>)
+       33    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.724    0.724 /usr/lib/python3/dist-packages/requests/api.py:63(get)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:578(_compile_bytecode)
+       23    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:246(__enter__)
+       10    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_get_ext}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:508(cookiejar_from_dict)
+      3/2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:777(exec_module)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.8/email/feedparser.py:178(_call_parse)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:172(append)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:96(reset)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:356(_init_decoder)
+       37    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:628(_decode_crl_distribution_points)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:68(_default_key_normalizer)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:73(_timegm)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:345(_decode_subject_key_identifier)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/weakref.py:103(remove)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:210(_pop_message)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.8/http/cookiejar.py:976(set_ok_verifiability)
+        4    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:401(_flush_decoder)
+       30    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:347(_last_descendant)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:493(_classify_pyc)
+        1    0.000    0.000    0.723    0.723 /usr/lib/python3/dist-packages/requests/sessions.py:466(request)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:877(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:429(_decode_general_names_extension)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:60(getregentry)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:599(_decode_distpoint)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/weakref.py:128(__getitem__)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       39    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:99(_noop)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1353(add_cookie_header)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/posixpath.py:228(expanduser)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:403(_decode_key_usage)
+        1    0.000    0.000    0.012    0.012 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:448(load_verify_locations)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:598(_code)
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:51(_unpack_uint32)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:65(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:329(_decode_basic_constraints)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/sessions.py:426(prepare_request)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:261(_is_owned)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:355(_escape)
+        9    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:305(_idna_encode)
+        1    0.000    0.000    0.434    0.434 /usr/lib/python3.8/http/client.py:1303(getresponse)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:129(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:143(resolve_redirects)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1219(vals_sorted_by_key)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:355(prepare_url)
+       23    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:249(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:623(closed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:324(_inet_paton)
+        1    0.000    0.000    0.012    0.012 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:746(load_verify_locations)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:819(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:72(_check_methods)
+       10    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:80(_path_stat)
+        1    0.000    0.000    0.724    0.724 /usr/lib/python3/dist-packages/requests/api.py:16(request)
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1438(__getattr__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:45(get_host)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/weakref.py:328(__init__)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:155(hostname)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:184(close)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:424(_get_cached)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:997(set_ok_path)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/logging/__init__.py:1677(isEnabledFor)
+        9    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:306(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:365(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:643(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:213(get_payload)
+        1    0.000    0.000    0.049    0.049 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:143(_new_conn)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:432(_generate_overlap_table)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/contextlib.py:82(__init__)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:319(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:928(close)
+       10    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_EXTENSION_get_critical}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:603(_asFileDescriptor)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        7    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:950(_new_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/shlex.py:1(<module>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:159(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:113(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:664(__contains__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:237(__init__)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:207(__init__)
+        5    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1223(deepvalues)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:307(prepare)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:2199(get_peer_certificate)
+       78    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:222(__init__)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:160(__len__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_path_split)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1713(send)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:122(pushlines)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/ssl_.py:386(is_ipaddress)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:676(items)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:423(_simple)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:70(close)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:588(get_content_maintype)
+        1    0.000    0.000    0.012    0.012 financial.py:37(GetRowData)
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/x509.py:123(extensions)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/socket.py:901(getaddrinfo)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/retry.py:161(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1687(set_tlsext_host_name)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/codecs.py:94(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:540(__init__)
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:114(host)
+       11    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/queue.py:20(_get)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1426(_get_spec)
+       23    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/queue.py:14(_qsize)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:197(_new_message)
+       10    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_EXTENSION_get_object}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:436(verify_mode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:629(eff_request_host)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/functools.py:64(wraps)
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+       19    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1584(_process_rfc2109_cookies)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:441(prepare_headers)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_set_verify}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:513(__init__)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:432(verify_mode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/utils.py:134(__getattr__)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/_util.py:62(openssl_assert)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_STORE_CTX_get_current_cert}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:286(tell)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:111(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:57(__iter__)
+        2    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+      3/2    0.000    0.000    0.001    0.000 {built-in method builtins.exec}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:659(name)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.BIO_new}
+        1    0.000    0.000    0.081    0.081 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:427(_feed)
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_STORE_CTX_get_ex_data}
+       22    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:219(__init__)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/ssl_.py:181(resolve_cert_reqs)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:694(should_bypass_proxies)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1239(endheaders)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1348(set_mode)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/email/feedparser.py:173(feed)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1120(get_verify_mode)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/sessions.py:690(merge_environment_settings)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+       11    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/packages/six.py:959(ensure_text)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.OBJ_txt2nid}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       25    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:58(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:712(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        1    0.000    0.000    0.128    0.128 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:986(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:384(<lambda>)
+        5    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:767(select_proxy)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:304(_init_length)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:526(_validate_timestamp_pyc)
+       11    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/queue.py:17(_put)
+       28    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:554(__missing__)
+        4    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:95(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:456(_check_name_wrapper)
+       11    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       23    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/weakref.py:323(__new__)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSLv23_method}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:707(is_redirect)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/sessions.py:733(close)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/threading.py:81(RLock)
+       23    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:392(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/queue.py:33(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:88(_get_backend)
+        1    0.000    0.000    0.081    0.081 /usr/lib/python3.8/html/parser.py:104(feed)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:406(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:411(_mk_bitmap)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:413(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:269(__init__)
+        7    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+       10    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1229(_all_strings)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:341(split_header_words)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:668(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:360(close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/contextlib.py:117(__exit__)
+       17    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:249(match)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:203(cert_verify)
+        5    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1266(get_text)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1202(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/contextlib.py:108(__enter__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/contextlib.py:238(helper)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:44(_debug)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:732(close)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1334(find_spec)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_NAME_get_index_by_NID}
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:452(strip_quotes)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:275(_dnsname_match)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:84(unverifiable)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:595(isstring)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:412(_error_catcher)
+        9    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:146(init_poolmanager)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:426(flush)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:118(get_extension_for_class)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:76(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:249(connection_from_pool_key)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1010(path_stats)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:323(_encode_target)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1265(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/netrc.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/packages/six.py:939(ensure_str)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:522(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:247(_remove_path_dot_segments)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.ASN1_STRING_to_UTF8}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:371(match_hostname)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:873(__init__)
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:380(_check_close)
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_get_ex_data_X509_STORE_CTX_idx}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:88(origin_req_host)
+        2    0.000    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:204(clear)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:867(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:427(options)
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3/dist-packages/cryptography/utils.py:166(inner)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:790(_missing_)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_STORE_CTX_set_error}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:989(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:48(get_origin_req_host)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:101(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/logging/__init__.py:1412(debug)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:90(_path_is_mode_type)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:77(iter_method)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:451(items)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:91(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:290(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isfile)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:492(_real_close)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/general_name.py:197(_init_without_validation)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:452(prepare_body)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:97(_intenum_converter)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:485(urlunsplit)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/retry.py:326(is_retry)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:961(set_ok_version)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_set_ecdh_auto}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:300(getregentry)
+        6    0.000    0.000    0.000    0.000 {built-in method time.time}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:521(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:129(offset_from_tz_string)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/retry.py:317(_is_method_retryable)
+        9    0.000    0.000    0.000    0.000 {built-in method _openssl.ASN1_BIT_STRING_get_bit}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:108(__new__)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_up_ref}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:228(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_STORE_CTX_get_error_depth}
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.inet_aton}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:249(<genexpr>)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:177(_new_pool)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_STORE_CTX_get_error}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:906(get_auth_from_url)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/shlex.py:19(shlex)
+       16    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:273(release_conn)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:237(_get_conn)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1750(__iter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:174(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_set_fd}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:802(default_headers)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:73(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/OpenSSL/_util.py:111(byte_string)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:226(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/genericpath.py:16(exists)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_get_verify_mode}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:281(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_set_bio}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:81(groups)
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:300(<listcomp>)
+      3/2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+       23    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:474(urlunparse)
+        2    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_set_options}
+        7    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1001(_send_output)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:303(set_payload)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:2256(set_connect_state)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1247(get_values_for_type)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:104(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:838(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:335(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:292(get_connection)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:46(__init__)
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_CTX_set_mode}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:232(handle_entityref)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:17(Codec)
+        1    0.000    0.000    0.001    0.001 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:162(<lambda>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:147(encode)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/response.py:74(is_response_to_head)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_GENERAL_NAME_num}
+        3    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/parser.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/x509.py:27(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1384(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:273(connection_from_url)
+        9    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:668(supports_chunked_reads)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/connection.py:89(_set_socket_options)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/packages/six.py:614(itervalues)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:87(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:988(set_ok_name)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:111(info)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:301(set_cert)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/x509.py:493(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:181(is_multipart)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:496(close)
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.BIO_s_mem}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:348(sendall)
+       12    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/url.py:417(ensure_type)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1731(clear_expired_cookies)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:53(__getitem__)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:698(__init__)
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:497(_verify_callback)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1259(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:334(settimeout)
+       12    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:236(connection_from_context)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:82(_encode_params)
+        7    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1242(__init__)
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_get_ext_count}
+        6    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:329(request_url)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_set_tlsext_host_name}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:927(check_header_validity)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:213(connection_from_host)
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:980(_output)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:942(send)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:135(get_cookie_header)
+        9    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:919(is_blocked)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/_util.py:127(text_to_bytes_and_warn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:306(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/crypto.py:210(add)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_markupbase.py:36(reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/genericpath.py:39(isdir)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:880(urlencode)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_ACCESS_DESCRIPTION_pop_free}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:335(prepare_markup)
+       12    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:109(_validate_timeout)
+        1    0.000    0.000    0.000    0.000 {method 'addressof' of 'CompiledFFI' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:939(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:337(_send_until_done)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_NAME_get_entry}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:529(merge_cookies)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/_collections.py:60(__setitem__)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:171(clone)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:605(getheader)
+        5    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1283(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:276(_put_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:576(prepare_hooks)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:934(is_not_allowed)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/sessions.py:423(__exit__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:738(mount)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_get_peer_certificate}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:409(_close_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:702(<lambda>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:437(isclosed)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:107(super_len)
+        2    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/hooks.py:23(dispatch_hook)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:391(_splitnetloc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1252(request)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:683(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:922(_prepare_conn)
+        1    0.000    0.000    0.000    0.000 financial.py:17(CheckArguments)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:444(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:432(_uniq)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:428(_match_hostname)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/ssl_.py:204(resolve_ssl_version)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:720(<genexpr>)
+        3    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_SCT_value}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:61(path_url)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_DIST_POINT_value}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/hooks.py:17(default_hooks)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:314(_get_timeout)
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_ACCESS_DESCRIPTION_value}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:175(register_hook)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:277(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.OPENSSL_free}
+        2    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_ASN1_OBJECT_value}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:374(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:185(start_connect)
+        2    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:565(unquote_unreserved)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/hazmat/backends/openssl/decode_asn1.py:748(_asn1_integer_to_int_or_none)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1294(_cookie_attrs)
+        6    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_NAME_ENTRY_get_data}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1423(__setitem__)
+        6    0.000    0.000    0.000    0.000 {method 'decode' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:204(deprecated_argument)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:1386(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.X509_get_subject_name}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:24(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/queue.py:11(_init)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:840(<genexpr>)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/requests/utils.py:755(get_environ_proxies)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:280(_decref_socketios)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/cookiejar.py:1067(set_ok_port)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {method 'flush' of '_io.BufferedReader' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:73(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:155(from_float)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/_internal_utils.py:14(to_native_string)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:556(prepare_cookies)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:32(IncrementalDecoder)
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/SSL.py:1596(__getattr__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/OpenSSL/_util.py:93(path_string)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:744(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:624(unquote)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:787(_get_content_length)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:719(get_adapter)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:348(update)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/response.py:76(__getattr__)
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.inet_pton}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.SSL_set_connect_state}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:49(StreamReader)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:589(requote_uri)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/charmap.py:40(StreamWriter)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:608(update)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1186(_validate_method)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:228(read_timeout)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:65(is_unverifiable)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1036(_normalize_host)
+       11    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:308(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:534(prepare_auth)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/request.py:2521(proxy_bypass_environment)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:40(_relax_case)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:399(_checknetloc)
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/request.py:41(__init__)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:179(initialize_soup)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_POLICYINFO_value}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/logging/__init__.py:1663(getEffectiveLevel)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:125(__iter__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:446(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/structures.py:60(__len__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:514(iter_slices)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:339(prepare_method)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:147(username)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:58(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:183(_userinfo)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/hooks.py:18(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/connection.py:97(allowed_gai_family)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x7f4e70ec1310}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_POLICYQUALINFO_value}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/retry.py:196(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:227(extract_zipped_paths)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:898(<lambda>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1017(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:187(reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1203(_validate_host)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:793(default_user_agent)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:964(get_filename)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:295(_class_escape)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_POLICYINFO_num}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_ASN1_OBJECT_num}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:113(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1195(_validate_path)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_SCT_num}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/poolmanager.py:289(_merge_pool_kwargs)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:701(__len__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:774(create_module)
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_DIST_POINT_num}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_POLICYQUALINFO_num}
+        1    0.000    0.000    0.000    0.000 {built-in method _openssl.sk_ACCESS_DESCRIPTION_num}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:685(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/netrc.py:22(netrc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/cryptography/x509/extensions.py:108(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:1(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/_internal_utils.py:30(unicode_is_ascii)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:80(merge_hooks)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/posixpath.py:41(_get_sep)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:423(options)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/netrc.py:10(NetrcParseError)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:456(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/request.py:90(set_file_position)
+        4    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+        3    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/util/timeout.py:210(connect_timeout)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1182(_encode_request)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connection.py:133(host)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/utils.py:672(set_environ)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/logging/__init__.py:214(_acquireLock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:330(geturl)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:521(prepare_content_length)
+        1    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISDIR}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/logging/__init__.py:223(_releaseLock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:865(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/contrib/pyopenssl.py:255(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:304(_validate_conn)
+        1    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/models.py:184(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/adapters.py:358(add_headers)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/cookies.py:81(get_new_headers)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/requests/sessions.py:420(__enter__)
+
+

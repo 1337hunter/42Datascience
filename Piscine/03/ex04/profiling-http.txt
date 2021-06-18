@@ -1,0 +1,454 @@
+         157938 function calls (157915 primitive calls) in 0.743 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      135    0.527    0.004    0.527    0.004 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.049    0.049    0.049    0.049 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.045    0.045    0.045    0.045 {method 'connect' of '_socket.socket' objects}
+     1234    0.010    0.000    0.048    0.000 /usr/lib/python3.8/html/parser.py:301(parse_starttag)
+    10218    0.009    0.000    0.009    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.007    0.003    0.079    0.040 /usr/lib/python3.8/html/parser.py:134(goahead)
+       96    0.006    0.000    0.006    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+        1    0.005    0.005    0.648    0.648 financial_enhanced.py:22(GetPage)
+        1    0.005    0.005    0.005    0.005 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+     1235    0.004    0.000    0.012    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1068(__init__)
+     1234    0.004    0.000    0.025    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:119(handle_starttag)
+     1185    0.003    0.000    0.006    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:284(_replace_cdata_list_attribute_values)
+     1234    0.003    0.000    0.020    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:678(handle_starttag)
+     1160    0.003    0.000    0.015    0.000 /usr/lib/python3.8/html/parser.py:386(parse_endtag)
+    20996    0.003    0.000    0.004    0.000 {built-in method builtins.isinstance}
+     1234    0.003    0.000    0.005    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:644(_popToTag)
+     1250    0.002    0.000    0.008    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1980(search_tag)
+     1235    0.002    0.000    0.003    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:527(pushTag)
+     2703    0.002    0.000    0.007    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:541(endData)
+     5031    0.002    0.000    0.003    0.000 /usr/lib/python3.8/_markupbase.py:48(updatepos)
+     1449    0.002    0.000    0.005    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2076(_matches)
+     2233    0.002    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:158(setup)
+     2242    0.002    0.000    0.011    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2043(search)
+     1234    0.002    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:513(popTag)
+     3798    0.002    0.000    0.002    0.000 {method 'search' of 're.Pattern' objects}
+      778    0.002    0.000    0.002    0.000 {method 'findall' of 're.Pattern' objects}
+       98    0.002    0.000    0.002    0.000 {built-in method zlib.crc32}
+      504    0.002    0.000    0.002    0.000 {built-in method __new__ of type object at 0x906780}
+     5248    0.002    0.000    0.002    0.000 {method 'group' of 're.Match' objects}
+       26    0.001    0.000    0.014    0.001 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:738(_find_all)
+       55    0.001    0.000    0.226    0.004 {method 'read' of '_io.BufferedReader' objects}
+     2703    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:478(string_container)
+     8388    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     1234    0.001    0.000    0.005    0.000 /usr/lib/python3.8/html/parser.py:352(check_for_whole_start_tag)
+     2905    0.001    0.000    0.001    0.000 {method 'count' of 'str' objects}
+     6596    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+     1234    0.001    0.000    0.010    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:716(handle_endtag)
+        1    0.001    0.001    0.001    0.001 {built-in method _socket.getaddrinfo}
+      499    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:576(object_was_parsed)
+        1    0.001    0.001    0.743    0.743 financial_enhanced.py:49(main)
+     1234    0.001    0.000    0.011    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:171(handle_endtag)
+     6666    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     6569    0.001    0.000    0.001    0.000 {method 'end' of 're.Match' objects}
+     4018    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     4704    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+     1503    0.001    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1943(_normalize_search_value)
+     1234    0.001    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1184(is_empty_element)
+      499    0.001    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:890(__new__)
+     2699    0.001    0.000    0.001    0.000 /usr/lib/python3.8/html/__init__.py:122(unescape)
+     4863    0.001    0.000    0.001    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1419(__bool__)
+     2575    0.001    0.000    0.001    0.000 /usr/lib/python3.8/abc.py:96(__instancecheck__)
+      135    0.001    0.000    0.528    0.004 /usr/lib/python3.8/socket.py:655(readinto)
+3195/3188    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+     2267    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+       97    0.000    0.000    0.008    0.000 /usr/lib/python3.8/gzip.py:454(read)
+      135    0.000    0.000    0.528    0.004 /usr/lib/python3.8/ssl.py:1230(recv_into)
+     2575    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+     1235    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:195(can_be_empty_element)
+     2283    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1802(descendants)
+     2631    0.000    0.000    0.000    0.000 {method 'start' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:276(_optimize_charset)
+     1235    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:434(set_up_substitutions)
+     1185    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+      135    0.000    0.000    0.527    0.004 /usr/lib/python3.8/ssl.py:1090(read)
+      127    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:604(_linkage_fixer)
+     1160    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:127(clear_cdata_mode)
+     1234    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_markupbase.py:40(getpos)
+      101    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:85(read)
+     1238    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      733    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1376(get)
+      116    0.000    0.000    0.002    0.000 /usr/lib/python3.8/_markupbase.py:168(parse_comment)
+      390    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:189(handle_data)
+        6    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+      507    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:726(handle_data)
+       27    0.000    0.000    0.005    0.000 /usr/lib/python3.8/http/client.py:513(_read_next_chunk_size)
+      116    0.000    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:251(handle_comment)
+     1314    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       79    0.000    0.000    0.001    0.000 /usr/lib/python3.8/re.py:289(_compile)
+     1243    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       96    0.000    0.000    0.002    0.000 /usr/lib/python3.8/gzip.py:505(_add_read_data)
+       78    0.000    0.000    0.001    0.000 /usr/lib/python3.8/html/parser.py:123(set_cdata_mode)
+       52    0.000    0.000    0.217    0.004 /usr/lib/python3.8/http/client.py:605(_safe_read)
+        1    0.000    0.000    0.223    0.223 /usr/lib/python3.8/http/client.py:567(_readall_chunked)
+      135    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+        1    0.000    0.000    0.050    0.050 /usr/lib/python3.8/ssl.py:983(_create)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       27    0.000    0.000    0.057    0.002 /usr/lib/python3.8/http/client.py:543(_get_chunk_left)
+      135    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+       96    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:98(prepend)
+      100    0.000    0.000    0.000    0.000 {method 'read' of '_io.BytesIO' objects}
+      136    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:694(readable)
+      546    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       73    0.000    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:104(handle_startendtag)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+      688    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       47    0.000    0.000    0.312    0.007 {method 'readline' of '_io.BufferedReader' objects}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:493(_parse)
+      272    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:1078(_checkClosed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/stringprep.py:2(<module>)
+       27    0.000    0.000    0.000    0.000 {method 'find' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:471(_parse_headers)
+       78    0.000    0.000    0.000    0.000 /usr/lib/python3.8/types.py:171(__get__)
+       26    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1905(__init__)
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:71(_compile)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/__init__.py:91(_replace_charref)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:218(_parsegen)
+        1    0.000    0.000    0.636    0.636 /usr/lib/python3/dist-packages/httplib2/__init__.py:1521(_conn_request)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/http/client.py:204(parse_headers)
+        1    0.000    0.000    0.009    0.009 /usr/lib/python3/dist-packages/httplib2/__init__.py:447(_decompressContent)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:2016(__init__)
+       79    0.000    0.000    0.001    0.000 /usr/lib/python3.8/re.py:250(compile)
+       12    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        1    0.000    0.000    0.096    0.096 /usr/lib/python3/dist-packages/httplib2/__init__.py:1270(connect)
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+       20    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:78(readline)
+       17    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:293(header_source_parse)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:242(__repr__)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:462(get)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1055(putrequest)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:281(_sanitize_header)
+        1    0.000    0.000    0.079    0.079 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:115(__init__)
+    38/36    0.000    0.000    0.001    0.000 {method 'encode' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:301(makefile)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1211(putheader)
+       26    0.000    0.000    0.014    0.001 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1767(find_all)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:413(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1257(_send_request)
+        1    0.000    0.000    0.307    0.307 /usr/lib/python3.8/http/client.py:300(begin)
+       19    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:562(__new__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.307    0.307 /usr/lib/python3.8/http/client.py:267(_read_status)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.643    0.643 /usr/lib/python3/dist-packages/httplib2/__init__.py:1723(request)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:486(_encode_hostname)
+       19    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:283(__call__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:219(__init__)
+       26    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:2162(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:536(_compile_info)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:133(__init__)
+       24    0.000    0.000    0.002    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1742(find)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:147(encode)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:564(get_content_type)
+        2    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:174(getwidth)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.8/sre_compile.py:759(compile)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:417(urlsplit)
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:233(__next)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/utils.py:51(_has_surrogates)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.002    0.002 financial_enhanced.py:31(FindRow)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:459(<listcomp>)
+       20    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:128(__next__)
+        1    0.000    0.000    0.049    0.049 /usr/lib/python3.8/ssl.py:1302(do_handshake)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/_policybase.py:311(header_fetch_parse)
+       78    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:664(value)
+        1    0.000    0.000    0.636    0.636 /usr/lib/python3/dist-packages/httplib2/__init__.py:1597(_request)
+        2    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:732(close)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:849(get_code)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:62(_path_join)
+       52    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/iri2uri.py:48(encode)
+       78    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1456(__eq__)
+        2    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:969(get_data)
+       30    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:347(_last_descendant)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:294(cache_from_source)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:139(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:101(push)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:97(_intenum_converter)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/parser.py:41(parse)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:237(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:1193(sendall)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:249(_compile_charset)
+       22    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:394(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:937(parse)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:421(_read_gzip_header)
+        1    0.000    0.000    0.308    0.308 /usr/lib/python3.8/http/client.py:1303(getresponse)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_compression.py:39(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:716(getheaders)
+       17    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:479(set_raw)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/encodings/__init__.py:70(search_function)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:29(_splitparam)
+        1    0.000    0.000    0.050    0.050 /usr/lib/python3.8/ssl.py:494(wrap_socket)
+        1    0.000    0.000    0.014    0.014 financial_enhanced.py:37(GetRowData)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:64(<listcomp>)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/encodings/idna.py:3(<module>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:643(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:120(__init__)
+        1    0.000    0.000    0.006    0.006 /usr/lib/python3/dist-packages/httplib2/__init__.py:176(_build_ssl_context)
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:254(get)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:51(lookup)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/iri2uri.py:71(<listcomp>)
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/email/parser.py:59(parsestr)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:650(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:53(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'getsockname' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _struct.unpack}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:502(detach)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:409(_close_conn)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:440(reset)
+       17    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/socket.py:901(getaddrinfo)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:986(_find_and_load)
+       55    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:512(family)
+       23    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:411(_mk_bitmap)
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3/dist-packages/httplib2/iri2uri.py:60(iri2uri)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1302(_get_spec)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:401(_init_read)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:307(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:819(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:416(_bytes_to_codes)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+        1    0.000    0.000    0.006    0.006 /usr/lib/python3/dist-packages/httplib2/__init__.py:1236(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:833(__and__)
+       10    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1229(_all_strings)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.8/sre_compile.py:598(_code)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:178(_call_parse)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.__import__}
+       73    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        5    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1266(get_text)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:172(append)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_compression.py:12(_check_not_closed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:256(parse_html_declaration)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:578(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:509(_read_eof)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:224(__init__)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 <string>:1(__new__)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:777(exec_module)
+        4    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:232(handle_entityref)
+        1    0.000    0.000    0.223    0.223 /usr/lib/python3.8/http/client.py:447(read)
+        3    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x7eff4a731a60}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:518(type)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_compression.py:59(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:1400(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1001(_send_output)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:629(spec_from_file_location)
+        1    0.000    0.000    0.079    0.079 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:369(feed)
+        1    0.000    0.000    0.079    0.079 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:427(_feed)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:432(_generate_overlap_table)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:184(close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:670(__getitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1378(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:160(__len__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:96(reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:318(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/__init__.py:43(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:70(close)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:51(_unpack_uint32)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:65(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:1166(send)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:942(send)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:588(get_content_maintype)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:451(items)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:300(getregentry)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:72(_check_methods)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:865(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:1056(proxy_info_from_environment)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/enum.py:619(__str__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.009    0.009 /usr/lib/python3.8/gzip.py:287(read)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:224(parse_uri)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:426(flush)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:80(_path_stat)
+       28    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:554(__missing__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/socket.py:486(_decref_socketios)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:493(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:423(_simple)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:197(_new_message)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:110(_coerce_args)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:423(__contains__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:405(_read_exact)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:424(_get_cached)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:122(pushlines)
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:129(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1239(endheaders)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:286(tell)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:111(__init__)
+       16    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       18    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:210(_pop_message)
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        3    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:921(fix_flags)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:173(feed)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1438(__getattr__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:79(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:529(_read_and_discard_trailer)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:718(verify_mode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1186(_validate_method)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:260(handle_decl)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1252(request)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:657(get)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        1    0.000    0.000    0.079    0.079 /usr/lib/python3.8/html/parser.py:104(feed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:391(_splitnetloc)
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:595(isstring)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:980(_output)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_path_split)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:233(urlnorm)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1259(<genexpr>)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:249(match)
+        5    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1283(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:485(urlunsplit)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:76(__init__)
+        7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:540(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:526(_validate_timestamp_pyc)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:414(close)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_collections_abc.py:406(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+      2/1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:710(verify_mode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/codecs.py:94(__new__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1426(_get_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:380(_check_close)
+        1    0.000    0.000    0.000    0.000 financial_enhanced.py:17(CheckArguments)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:87(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/parser.py:17(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:355(_escape)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:787(_get_content_length)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:432(_uniq)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:108(__new__)
+      2/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1203(_validate_host)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1334(find_spec)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:456(_check_name_wrapper)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/os.py:748(encode)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1265(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/gzip.py:314(closed)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/_htmlparser.py:335(prepare_markup)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1010(path_stats)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/abc.py:100(__subclasscheck__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:90(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:399(_checknetloc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:303(set_payload)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/ssl.py:1082(_check_connected)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.8/ssl.py:482(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1182(_encode_request)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_markupbase.py:36(reset)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:1195(_validate_path)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/feedparser.py:125(__iter__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:55(has_timeout)
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:939(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:456(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/sre_compile.py:492(_get_charset_prefix)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        2    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:944(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/html/parser.py:113(close)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_compression.py:150(tell)
+        1    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:146(Codec)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/_compression.py:36(readable)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:490(_updateCache)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:40(_relax_case)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:299(_parse_cache_control)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/collections/__init__.py:608(update)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/element.py:1423(__setitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/http/client.py:885(set_debuglevel)
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x7eff4a731160}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:187(reset)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.8/urllib/parse.py:99(_noop)
+        1    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/builder/__init__.py:179(initialize_soup)
+        2    0.000    0.000    0.000    0.000 /home/se/.local/lib/python3.8/site-packages/bs4/__init__.py:204(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:218(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/email/message.py:424(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:253(IncrementalDecoder)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:964(get_filename)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:953(iter)
+        1    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:774(create_module)
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x7eff4a6ada60}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:295(StreamReader)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/httplib2/__init__.py:1612(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.8/encodings/idna.py:292(StreamWriter)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+
+
