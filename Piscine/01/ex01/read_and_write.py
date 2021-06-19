@@ -4,6 +4,8 @@ def CorrectLine(line):
     while i <  len(line):
         if line[i] == '"' or line[i] == '\'':
             ch = line[i]
+            new_line += ch
+            i += 1
             while i < len(line) and line[i] != ch:
                 new_line += line[i]
                 i += 1
@@ -13,6 +15,7 @@ def CorrectLine(line):
                 new_line += '\t'
             elif i < len(line):
                 new_line += line[i]
+            print(new_line)
         else:
             while i < len(line) and line[i] != ',':
                 new_line += line[i]
@@ -22,6 +25,7 @@ def CorrectLine(line):
             elif i < len(line):
                 new_line += line[i]
         i += 1
+        
     return new_line
 
 def ReadAndWrite():
