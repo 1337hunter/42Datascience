@@ -25,7 +25,6 @@ def CorrectLine(line):
             elif i < len(line):
                 new_line += line[i]
         i += 1
-        
     return new_line
 
 def ReadAndWrite():
