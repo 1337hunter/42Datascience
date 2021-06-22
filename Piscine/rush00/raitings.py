@@ -33,16 +33,16 @@ class Ratings:
             """
             return OrderedDict(sorted(dict(Counter([x[2] for x in self.ratings])).items()))
         
-        # def top_by_num_of_ratings(self, n): ############################################################################
-        #     """
-        #     The method returns top-n movies by the number of ratings. 
-        #     It is a dict where the keys are movie titles and the values are numbers.
-        #     Sort it by numbers descendingly.
-        #     """
-        #     if n > self.length:
-        #         raise IndexError('Index out of ratings\' range')
-        #     top_id = sorted(self.raitings, key=lambda x: x[2], reverse=True)[:n]
-        #     #return top_movies
+        def top_by_num_of_ratings(self, n): ############################################################################
+            """
+            The method returns top-n movies by the number of ratings. 
+            It is a dict where the keys are movie titles and the values are numbers.
+            Sort it by numbers descendingly.
+            """
+            if n > self.length:
+                raise IndexError('Index out of ratings\' range')
+            top_id = sorted(self.raitings, key=lambda x: x[2], reverse=True)[:n]
+            #return top_movies
         
         #def top_by_ratings(self, n, metric=average): ####################################################################
             # """
